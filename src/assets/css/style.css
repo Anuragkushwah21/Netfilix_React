@@ -1,0 +1,23 @@
+.bgimage {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%,
+      transparent
+    ),
+    url("/public/image/IN-en-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_3457a8b1-284d-4bb5-979e-2a2e9bb342b3_medium.jpg");
+  background-repeat: no-repeat;
+}
+.hr_line{
+    height: 9px;
+    width: 100%;
+    border: none; /* Remove the default border */
+    background-color: rgb(37, 37, 37); /* Or any color you prefer */
+
+
+}
+.hr_line{
+  @apply bg-[#232323] h-2.5
+}
+
